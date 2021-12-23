@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <title>Jelle Henau | Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Jelle Henau</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cv.html">CV</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ervaring.html">Ervaring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hobby.html">Hobby</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>  
+      <!-- Jumbotron -->
+      <div class="container py-4">
+        <div class="p-2 p-sm-5 mb-4 bg-light rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Welkom</h1>
+            <p class="col-md-8 fs-4">Op deze website zult u meer over mij te weten komen.</p>
+          </div>
+        </div>
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+              <h2>Wie ben ik?</h2>
+              <p class="text">Ik ben Jelle Henau en een student aan Thomas More te Geel. Voor het vak statische websites moesten we als project een portfolio website over onszelf maken.
+                Wilt u meer over mij te weten komen klik dan verder naar mijn curriculum vitae.
+              </p>
+              <a href="cv.html" class="btn btn-outline-light" role="button">Curriculum vitae</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Wat doe ik?</h2>
+              <p class="text">In mijn vrije tijd heb ik hobby's wit u weten welke hobby's klik dan verder naar mijn hobby pagina.</p>
+              <a href="hobby.html" class="btn btn-outline-secondary" role="button">Hobby's</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--Columns with cards -->
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Wilt u meer over mij te weten komen...</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <a href="cv.html"><img src="images/jelle.png" alt="Foto van mijzelf" height="300" width="100%"></a>
+            <h2>Curriculum vitae</h2>
+            <p>Wilt u meer over mij te weten komen. Klik dan verder naar curriculum vitae...</p>
+            <a href="cv.html" class="btn btn-primary" role="button">Naar curriculum vitae</a>
+          </div>
+          <div class="feature col">
+            <a href="ervaring.html"><img src="images/ervaring.jpg" alt="Foto van ervaring" height="300" width="100%"></a>
+            <h2>Ervaring</h2>
+            <p>Wilt u meer te weten komen over wat ik kan. Klik dan nu verder...</p>
+            <a href="ervaring.html" class="btn btn-primary" role="button">Naar ervaring</a>
+          </div>
+          <div class="feature col">
+            <a href="hobby.html"><img src="images/mijnhond.jpg" alt="Foto van mijn hond" height="300" width="100%"></a>
+            <h2>Mijn hobby's</h2>
+            <p>Na een dag hard werken is het tijd voor ontspanning. Ontdek hier wat ik zoal doe...</p>
+            <a href="hobby.html" class="btn btn-primary" role="button">Naar hobby's</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Call-to-action -->
+      <div class="container py-4">
+        <div class="px-10 py-2 my-2 text-center bg-light">
+          <h1 class="display-5 fw-bold">Nog vragen?</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Ga dan nu naar mijn contactpagina...</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="contact.html" class="btn btn-primary btn-lg px-4 gap-3" role="button">Contacteer mij</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-6 d-flex align-items-center">
+            <span class="text-muted">© 2021 - Jelle Henau</span>
+          </div>
+          <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="https://twitter.com/getbootstrap" target="_blank"><img src="css/bootstrap-icons/twitter.svg" alt="Twitter" width="24" height="24"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/explore/tags/bootstrap/" target="_blank"><img src="css/bootstrap-icons/instagram.svg" alt="Instagram" width="24" height="24"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/getbootstrap/" target="_blank"><img src="css/bootstrap-icons/facebook.svg" alt="Facebook" width="24" height="24"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://discord.me/bootstrap" target="_blank"><img src="css/bootstrap-icons/discord.svg" alt="Discord" width="24" height="24"></a></li>
+            <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/company/getbootstrap" target="_blank"><img src="css/bootstrap-icons/linkedin.svg" alt="Linkedin" width="24" height="24"></a></li>
+            <li class="ms-5"><a class="back-to-top" href="#"><img src="css/bootstrap-icons/arrow-up-square.svg" alt="back-to-top" width="24" height="24"></a></li>
+          </ul>
+        </footer>
+      </div>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
